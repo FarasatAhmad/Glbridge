@@ -1,0 +1,17 @@
+
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+.main-div {
+    display: flex;
+    margin-left: 200px;
+    height: 500px;
+    align-items: center;
+}
+.color {
+    color: red;
+    margin-bottom: 5px;
+}
+

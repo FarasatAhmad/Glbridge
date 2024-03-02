@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+}
+/* Header Header-container Css */
+.header{
+    display: flex;
+    align-items: center;
+    margin: 18px 0px;
+    border-bottom: 1px solid gray;
+}
+
+/* Header Logo Css */
+
+.logo img{
+    height: 60px;
+    width: 150px;
+}
+
+/* Header Listings Css */
+
+.listing{
+    list-style: none;
+    display: flex;
+}
+
+ .listing li{
+    margin: 0px 10px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Hero */
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    border-top: 1px solid gray;
+}
+
+.hero-image img{
+    height: 270px;
+}
+
+.hero-text{
+    width: 450px;
+}
+
+.hero-text h1{
+    font-size: 40px;
+    margin: 8px 0px;
+}
+
+
+.hero-text p{
+    font-size: 20px;
+    margin: 0px;
+    
+}
+
+/* Form Styling */
+
+.form-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-section{
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
+
+.inputs input{
+    display: block;
+    padding: 10px 310px 10px 10px;
+    /* padding-top: 5px; */
+    /* padding-right:210px; */
+    margin: 10px;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 5px;
+}
+textarea {
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+button {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 10px 210px;
+    border-radius: 5px;
+    margin-left: 19px;
+    transition: 0.3s;
+
+}
+button:hover {
+    background-color: rgb(209, 0, 0);
+}

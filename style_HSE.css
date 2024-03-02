@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Honk&family=Lato:wght@900&family=Nunito:wght@200;400&display=swap');
+
+
+
+.container{
+    display: flex;
+    margin: 0px 30px;
+}
+img{
+    height: 800px;
+    margin-top: 30px;
+}
+.left-div{
+        margin-right: 30px;
+        margin-top: 30px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+
+}
+.left-div p {
+    margin-bottom: 30px;
+}
+.left-div ul {
+    margin-bottom: 30px;
+}
+.btn button {
+    padding: 15px 50px;
+    background-color: red;
+    color: white;
+    border: 2px rgb(255, 30, 0) solid;
+    font-weight: bolder;
+    transition: 1s;
+}
+button:hover {
+    background-color: rgb(227, 227, 0);
+    border: 2px rgb(227, 227, 1) solid;
+}
+.paragraph1 {
+    margin-top: 30px;
+}
+.text-img {
+    background-color: rgb(230, 169, 0);
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.superman {
+    position: relative;
+    bottom: 200px;
+    /* position: absolute;
+    top: 600px; */
+}
+.image-HSE {
+    height: 250px;
+    width: 1340px;
+    background: linear-gradient(rgba(0, 0, 6, 0.7), rgba(0, 0, 6, 0.7)) , url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fGxlYXJuaW5nfGVufDB8fDB8fHww") center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-HSE h1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.hed p {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
